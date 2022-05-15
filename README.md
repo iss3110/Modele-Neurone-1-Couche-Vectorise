@@ -33,14 +33,7 @@ Ce que Warren McCuloch et Walter Pitts ont essayé de faire, c'est de modéliser
 
 
 1.   Agrégation : 𝐟 = ∑ wᵢ.xᵢ
-2.   Activation : $$
-\left\{
-    \begin{array}{ll}
-        y = 1 & \mbox{si } 𝐟 \ge 0 \\
-        y = 0 & \mbox{sinon} 
-    \end{array}
-\right.
-$$
+2.   Activation : y = 1 si f >= 0, et y = 0 sinon.
 
 <img width="586" alt="image" src="https://user-images.githubusercontent.com/78855647/168451826-e7e77cce-9418-4fbe-ab0f-d68e471418e8.png">
 
