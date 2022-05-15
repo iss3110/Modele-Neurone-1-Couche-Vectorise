@@ -1,5 +1,6 @@
-# Modele-Neurone-1-Couche-Vectorise
-## une intro aux réseaux de neurones
+# Modèle vectorisé d'un neurone artificiel. 
+📧 sslaouane@gmail.com
+## une intro aux réseaux de neurones :
 
 Le machine learning est un domaine de l'inteligence artificielle, qui consiste à programmer une machine pour que celle-ci aprenne à réaliser des tâches en étudiant des exemples de ces dernières. Mathématiquement, ces exemples sont représentés par des données que la machine utilise pour développer un modèle, par exemple f(x)=a.x+b, le but en machine learning, est de trouver les paramètres a et b qui donnent le meilleur modèle possible, c-à-d le modèle qui s'ajuste le mieux aux données. Pour cela, on programme dans la machine un algo d'optimisation qui va venir tester différentes valeurs de a et b jusqu'à obtenir la combinaison de a et b qui minimise la distance entre le modèle et les données, c'est le machine learning : développer un modèle en se servant d'un algo d'optimisation pour minimiser les erreurs entre le modèle et nos données.
 
