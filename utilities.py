@@ -1,4 +1,6 @@
 import numpy as np
+import matplotlib.pyplot as plt
+
 def initialisation(X):
   W=np.random.randn(X.shape[1],1)
   b=np.random.randn(1)
@@ -45,7 +47,7 @@ def artificial_neuron(X,y,learning_rate=0.1,n_iter=100):
     W,b=update(dW,db,W,b,learning_rate)
   
   y_pred=predict(X,W,b) # prédiction pour toutes les données du modèle
-  print(accuracy_score(y,y_pred))
+  print("Cette nouvelle plante a %d" %(accuracy_score(y,y_pred)*100),"% de chance d'être dans la classe 1, càd d'être toxique." )
 
   plt.plot(Loss)
   plt.show()
