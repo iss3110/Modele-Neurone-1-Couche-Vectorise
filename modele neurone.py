@@ -20,4 +20,6 @@ x1=np.linspace(-1,4,100) # un vecteur entre -1 et 4 avec 100 valeurs
 x2=-(W[0]*x1+b)/W[1]
 plt.plot(x1,x2,c="blue",lw=3)
 plt.scatter(new_plant[0], new_plant[1],c="r")
+nb_plant = np.array([2,1])
+plt.scatter(nb_plant[0], nb_plant[1],c="b")
 plt.show() # remarque que cette ligne qui gère l'affichage du plot, donc permet d'afficher différents plot sur le même graphe ou non
